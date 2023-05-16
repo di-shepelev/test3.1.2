@@ -21,7 +21,6 @@ public class UserServicelmpl implements UserServise {
         userDao.addUser(user);
     }
     @Override
-    @Transactional
     public List<User> listUsers() {
         return userDao.listUsers();
     }
